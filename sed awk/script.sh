@@ -1,0 +1,1 @@
+awk -F";" '/.*/ {if($4=="/bin/false"){print $1}}' sample.txt
